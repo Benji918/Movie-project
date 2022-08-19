@@ -89,7 +89,7 @@ def add():
     add_form = Addform(meta={'csrf': True})
     if request.method == 'POST':
         if add_form.validate_on_submit():
-            API_KEY = '79fb80aa1e2c705e1e7296d1bccdd174'
+            API_KEY = 'your api key'
             header = {
                 'Authorization': f'Bearer{API_KEY}',
                 'Content-Type': 'application/json;charset=utf-8'
